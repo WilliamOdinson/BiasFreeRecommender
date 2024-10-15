@@ -1,0 +1,422 @@
+{
+    "business_id": {
+        "type": "object",
+        "Description": "商家在Yelp上的唯一标识符"
+    },
+    "attributes.Ambience.divey": {
+        "type": "object",
+        "Description": "描述商家的环境是否偏向非正式或“潜水吧”风格"
+    },
+    "attributes.Dietary Restrictions.vegan": {
+        "type": "object",
+        "Description": "商家是否提供素食选项"
+    },
+    "attributes.Happy Hour": {
+        "type": "object",
+        "Description": "商家是否提供欢乐时光优惠"
+    },
+    "hours.Thursday.open": {
+        "type": "object",
+        "Description": "周四商家的开门时间"
+    },
+    "attributes.Order at Counter": {
+        "type": "object",
+        "Description": "是否在柜台点餐"
+    },
+    "attributes.Hair Types Specialized In.africanamerican": {
+        "type": "object",
+        "Description": "商家是否专门提供针对非洲裔美国人的发型服务"
+    },
+    "attributes.Hair Types Specialized In.kids": {
+        "type": "object",
+        "Description": "商家是否提供儿童发型服务"
+    },
+    "attributes.BYOB": {
+        "type": "object",
+        "Description": "商家是否允许带酒入内（Bring Your Own Bottle）"
+    },
+    "hours.Friday.open": {
+        "type": "object",
+        "Description": "周五的开门时间"
+    },
+    "categories": {
+        "type": "object",
+        "Description": "商家所属的类别"
+    },
+    "latitude": {
+        "type": "float64",
+        "Description": "商家的纬度"
+    },
+    "attributes.Outdoor Seating": {
+        "type": "object",
+        "Description": "商家是否有室外座位"
+    },
+    "attributes.Alcohol": {
+        "type": "object",
+        "Description": "商家提供的酒精饮料类型"
+    },
+    "attributes.Ambience.classy": {
+        "type": "object",
+        "Description": "环境是否优雅"
+    },
+    "attributes.Payment Types.mastercard": {
+        "type": "object",
+        "Description": "是否接受万事达卡付款"
+    },
+    "attributes.Parking.lot": {
+        "type": "object",
+        "Description": "是否有停车场"
+    },
+    "attributes.Ambience.touristy": {
+        "type": "object",
+        "Description": "环境是否具有旅游景点的特色"
+    },
+    "attributes.Corkage": {
+        "type": "object",
+        "Description": "是否允许客人自带酒水并收取开瓶费"
+    },
+    "hours.Tuesday.open": {
+        "type": "object",
+        "Description": "周二的开门时间"
+    },
+    "attributes.Good For.brunch": {
+        "type": "object",
+        "Description": "是否适合早午餐"
+    },
+    "attributes.Payment Types.amex": {
+        "type": "object",
+        "Description": "是否接受美国运通卡"
+    },
+    "name": {
+        "type": "object",
+        "Description": "商家名称"
+    },
+    "hours.Monday.open": {
+        "type": "object",
+        "Description": "周一的开门时间"
+    },
+    "attributes.Waiter Service": {
+        "type": "object",
+        "Description": "是否有服务员服务"
+    },
+    "attributes.Parking.street": {
+        "type": "object",
+        "Description": "是否有街边停车位"
+    },
+    "attributes.Ambience.hipster": {
+        "type": "object",
+        "Description": "环境是否属于潮流或“小众”风格"
+    },
+    "attributes.BYOB/Corkage": {
+        "type": "object",
+        "Description": "是否允许自带酒水并明确是否需要开瓶费"
+    },
+    "attributes.Hair Types Specialized In.straightperms": {
+        "type": "object",
+        "Description": "商家是否提供直发或烫发服务"
+    },
+    "attributes.Music.live": {
+        "type": "object",
+        "Description": "是否提供现场音乐"
+    },
+    "attributes.Dietary Restrictions.dairy-free": {
+        "type": "object",
+        "Description": "是否提供无乳制品选项"
+    },
+    "attributes.Music.background_music": {
+        "type": "object",
+        "Description": "是否有背景音乐"
+    },
+    "attributes.Price Range": {
+        "type": "float64",
+        "Description": "价格范围"
+    },
+    "attributes.Good For.breakfast": {
+        "type": "object",
+        "Description": "是否适合作为早餐场所"
+    },
+    "attributes.Parking.garage": {
+        "type": "object",
+        "Description": "是否有车库停车设施"
+    },
+    "attributes.Music.karaoke": {
+        "type": "object",
+        "Description": "是否提供卡拉OK"
+    },
+    "attributes.Good For Dancing": {
+        "type": "object",
+        "Description": "是否适合跳舞"
+    },
+    "review_count": {
+        "type": "int64",
+        "Description": "商家的评论数量"
+    },
+    "attributes.Hair Types Specialized In.asian": {
+        "type": "object",
+        "Description": "商家是否专门提供亚洲人发型服务"
+    },
+    "state": {
+        "type": "object",
+        "Description": "商家所在的州"
+    },
+    "attributes.Accepts Credit Cards": {
+        "type": "object",
+        "Description": "是否接受信用卡支付"
+    },
+    "hours.Friday.close": {
+        "type": "object",
+        "Description": "周五的关门时间"
+    },
+    "attributes.Good For.lunch": {
+        "type": "object",
+        "Description": "是否适合午餐"
+    },
+    "attributes.Good For Kids": {
+        "type": "object",
+        "Description": "是否适合儿童"
+    },
+    "attributes.Parking.valet": {
+        "type": "object",
+        "Description": "是否提供代客泊车服务"
+    },
+    "attributes.Take-out": {
+        "type": "object",
+        "Description": "是否提供外卖服务"
+    },
+    "full_address": {
+        "type": "object",
+        "Description": "商家的完整地址"
+    },
+    "hours.Thursday.close": {
+        "type": "object",
+        "Description": "周四的关门时间"
+    },
+    "attributes.Hair Types Specialized In.coloring": {
+        "type": "object",
+        "Description": "商家是否提供染发服务"
+    },
+    "attributes.Payment Types.cash_only": {
+        "type": "object",
+        "Description": "是否只接受现金支付"
+    },
+    "attributes.Good For.dessert": {
+        "type": "object",
+        "Description": "是否适合甜点"
+    },
+    "attributes.Music.video": {
+        "type": "object",
+        "Description": "是否播放音乐视频"
+    },
+    "attributes.Dietary Restrictions.halal": {
+        "type": "object",
+        "Description": "是否提供清真食品"
+    },
+    "attributes.Takes Reservations": {
+        "type": "object",
+        "Description": "是否接受预订"
+    },
+    "hours.Saturday.open": {
+        "type": "object",
+        "Description": "周六的开门时间"
+    },
+    "attributes.Ages Allowed": {
+        "type": "object",
+        "Description": "允许的顾客年龄"
+    },
+    "attributes.Ambience.trendy": {
+        "type": "object",
+        "Description": "环境是否时尚"
+    },
+    "attributes.Delivery": {
+        "type": "object",
+        "Description": "是否提供送货服务"
+    },
+    "hours.Wednesday.close": {
+        "type": "object",
+        "Description": "周三的关门时间"
+    },
+    "attributes.Wi-Fi": {
+        "type": "object",
+        "Description": "是否提供Wi-Fi"
+    },
+    "open": {
+        "type": "bool",
+        "Description": "商家是否还在营业"
+    },
+    "city": {
+        "type": "object",
+        "Description": "商家所在城市"
+    },
+    "attributes.Payment Types.discover": {
+        "type": "object",
+        "Description": "是否接受Discover卡支付"
+    },
+    "attributes.Wheelchair Accessible": {
+        "type": "object",
+        "Description": "是否无障碍设施"
+    },
+    "attributes.Dietary Restrictions.gluten-free": {
+        "type": "object",
+        "Description": "是否提供无麸质食品"
+    },
+    "stars": {
+        "type": "float64",
+        "Description": "商家的平均评分"
+    },
+    "attributes.Payment Types.visa": {
+        "type": "object",
+        "Description": "是否接受Visa卡支付"
+    },
+    "type": {
+        "type": "object",
+        "Description": "数据类型"
+    },
+    "attributes.Caters": {
+        "type": "object",
+        "Description": "是否提供餐饮服务"
+    },
+    "attributes.Ambience.intimate": {
+        "type": "object",
+        "Description": "环境是否亲密"
+    },
+    "attributes.Music.playlist": {
+        "type": "object",
+        "Description": "是否有播放音乐播放列表"
+    },
+    "attributes.Good For.latenight": {
+        "type": "object",
+        "Description": "是否适合深夜消费"
+    },
+    "attributes.Good For.dinner": {
+        "type": "object",
+        "Description": "是否适合晚餐"
+    },
+    "attributes.Coat Check": {
+        "type": "object",
+        "Description": "是否提供衣帽间服务"
+    },
+    "longitude": {
+        "type": "float64",
+        "Description": "商家的经度"
+    },
+    "hours.Monday.close": {
+        "type": "object",
+        "Description": "周一的关门时间"
+    },
+    "attributes.Hair Types Specialized In.extensions": {
+        "type": "object",
+        "Description": "商家是否提供接发服务"
+    },
+    "hours.Tuesday.close": {
+        "type": "object",
+        "Description": "周二的关门时间"
+    },
+    "hours.Saturday.close": {
+        "type": "object",
+        "Description": "周六的关门时间"
+    },
+    "attributes.Good for Kids": {
+        "type": "object",
+        "Description": "是否适合儿童"
+    },
+    "attributes.Parking.validated": {
+        "type": "object",
+        "Description": "是否提供停车验证"
+    },
+    "hours.Sunday.open": {
+        "type": "object",
+        "Description": "周日的开门时间"
+    },
+    "attributes.Accepts Insurance": {
+        "type": "object",
+        "Description": "是否接受保险"
+    },
+    "attributes.Music.dj": {
+        "type": "object",
+        "Description": "是否有DJ音乐"
+    },
+    "attributes.Dietary Restrictions.soy-free": {
+        "type": "object",
+        "Description": "是否提供无大豆产品"
+    },
+    "attributes.Has TV": {
+        "type": "object",
+        "Description": "是否有电视"
+    },
+    "hours.Sunday.close": {
+        "type": "object",
+        "Description": "周日的关门时间"
+    },
+    "attributes.Ambience.casual": {
+        "type": "object",
+        "Description": "环境是否休闲"
+    },
+    "attributes.By Appointment Only": {
+        "type": "object",
+        "Description": "是否只接另通过预约"
+    },
+    "attributes.Dietary Restrictions.kosher": {
+        "type": "object",
+        "Description": "是否提供符合犹太教规的食品"
+    },
+    "attributes.Dogs Allowed": {
+        "type": "object",
+        "Description": "是否允许狗进入"
+    },
+    "attributes.Drive-Thru": {
+        "type": "object",
+        "Description": "是否有得来速服务"
+    },
+    "attributes.Dietary Restrictions.vegetarian": {
+        "type": "object",
+        "Description": "是否提供素食选项"
+    },
+    "hours.Wednesday.open": {
+        "type": "object",
+        "Description": "周三的开门时间"
+    },
+    "attributes.Noise Level": {
+        "type": "object",
+        "Description": "噪音等级"
+    },
+    "attributes.Smoking": {
+        "type": "object",
+        "Description": "是否允许吸烟"
+    },
+    "attributes.Attire": {
+        "type": "object",
+        "Description": "顾客着装要求"
+    },
+    "attributes.Hair Types Specialized In.curly": {
+        "type": "object",
+        "Description": "商家是否专门提供针对卷发的服务"
+    },
+    "attributes.Good For Groups": {
+        "type": "object",
+        "Description": "是否适合团体"
+    },
+    "neighborhoods": {
+        "type": "object",
+        "Description": "商家所在的街区"
+    },
+    "attributes.Open 24 Hours": {
+        "type": "object",
+        "Description": "是否24小时开放"
+    },
+    "attributes.Ambience.romantic": {
+        "type": "object",
+        "Description": "环境是否浪漫"
+    },
+    "attributes.Hair Types Specialized In.perms": {
+        "type": "object",
+        "Description": "商家是否提供烫发服务"
+    },
+    "attributes.Music.jukebox": {
+        "type": "object",
+        "Description": "是否有自动点唱机"
+    },
+    "attributes.Ambience.upscale": {
+        "type": "object",
+        "Description": "环境是否高档"
+    }
+}

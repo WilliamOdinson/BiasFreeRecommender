@@ -1,0 +1,42 @@
+{
+    "user_id": {
+        "type": "object",
+        "Description": "用户的唯一标识符"
+    },
+    "review_id": {
+        "type": "object",
+        "Description": "评论的唯一标识符"
+    },
+    "text": {
+        "type": "object",
+        "Description": "评论内容"
+    },
+    "votes.cool": {
+        "type": "int64",
+        "Description": "被认为是“酷”的投票数量"
+    },
+    "business_id": {
+        "type": "object",
+        "Description": "商家的唯一标识符"
+    },
+    "votes.funny": {
+        "type": "int64",
+        "Description": "被认为是“有趣”的投票数量"
+    },
+    "stars": {
+        "type": "int64",
+        "Description": "评分（星级）"
+    },
+    "date": {
+        "type": "object",
+        "Description": "评论日期"
+    },
+    "type": {
+        "type": "object",
+        "Description": "数据类型"
+    },
+    "votes.useful": {
+        "type": "int64",
+        "Description": "被认为是“有用”的投票数量"
+    }
+}
